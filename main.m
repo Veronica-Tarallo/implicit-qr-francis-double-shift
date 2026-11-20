@@ -81,9 +81,9 @@ legend('Actual time', 'Theoretical O(n^3) reference', 'Location', 'northwest');
 %% TEST 4: Algorithm Limitations (Stagnation)
 fprintf('\n--- TEST 4: Algorithm Limitations (Stagnation on large matrices) ---\n');
 % Forza il seed a un caso in cui sappiamo che fallisce per n = 400 
-%rng("threefry")     % fino a n<=599
-%rng("shuffle")      % fino a n<=488
-rng("twister")      % fino a n<=399
+%rng("threefry")     % up to n=599
+%rng("shuffle")      % up to n=488
+rng("twister")      % up to n=399
 n3 = 400;
 A3 = randn(n3);
 
