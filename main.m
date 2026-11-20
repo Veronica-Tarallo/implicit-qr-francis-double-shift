@@ -4,9 +4,9 @@
 
 clear; clc; close all;
 % Set seed for reproducibility
-%rng("threefry")     % fino a n<=599
-%rng("shuffle")      % fino a n<=488
-rng("twister")      % fino a n<=399
+%rng("threefry")     % up to n=599
+%rng("shuffle")      % up to n=488
+rng("twister")      % up to n=399
 
 %% TEST 1: Convergence Visualization (Plot 1)
 fprintf('--- TEST 1: Sub-diagonal Convergence ---\n');
